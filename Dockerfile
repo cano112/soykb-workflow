@@ -2,7 +2,7 @@ FROM alpine:3.12
 MAINTAINER Bartosz Balis <balis@agh.edu.pl>
 
 ENV HYPERFLOW_JOB_EXECUTOR_VERSION=v1.0.16
-ENV NODE_VERSION=12.17.0-r0
+ENV NODE_VERSION=12.18.3-r0
 
 RUN apk --update add openjdk7-jre \
  && apk add curl bash \
